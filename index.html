@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Aravindhan</title>
+    <link rel="icon" href="Photos/man_5-1024.webp">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9c57adf6a4.js" crossorigin="anonymous"></script>
+    <!--fonts link-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+
+<body>
+    <!--Nav menu-->
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Logo</p>
+            </div>
+            <div class="nav-menu " id="myNavMenu">
+                <ul class="nav_menu_list ">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+
+                    </li>
+                    <li class="nav_list">
+                        <a href="#project" class="nav-link">Project</a>
+
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+
+                    </li>
+                </ul>
+            </div>
+            <!--Daek mode-->
+            <div class="mode">
+                <div class="moon-sun" id="toggle-switch">
+                    <i class="fa-solid fa-moon" id="moon"></i>
+                    <i class="fa-solid fa-sun" id="sun"></i>
+                </div>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="fa-solid fa-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+
+        <!--maun-->
+        <main class="wrapper">
+            <section class="section aravindhan-box" id="home">
+                <div class="aravindhan-text">
+                    <div class="hello">
+                        <p>Hello I'm</p>
+                    </div>
+                    <div class="aravindhan-name">
+                        <span class="typedtext"></span>
+                    </div>
+                    <div class="text-info">
+                        <p>My Name is Aravindhan!
+                         I'm Front End Developer in Angular Fromwork </p>
+                    </div>
+                    <div class="text-btn">
+                        <button class="btn hire-btn">Hire Me</button>
+                        <button class="btn">Download CV <i class="fa-solid fa-file"></i></button>
+                    </div>
+                    <div class="socical_icons">
+                        <div class="icon_circle"></div>
+                        <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+                        <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+                        <div class="icon"><i class="fa-brands fa-github"></i></div>
+                        <div class="icon"><i class="fa-solid fa-border-none"></i></div>
+                    </div>
+                </div>
+            </section>
+            <!--about me-->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <figure class="about-me">
+                                <figcaption>
+                                    <img src="" alt="" class="profile" />
+                                    <h2>Mean Stack Developer</h2>
+                                    <p>My Name is Aravindhan! Mean Stack Developer I'm Fresher</p>
+
+                                    <button class="about-me-btn">Hire Me</button>
+                            </figure>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-box">
+                            <span class="title">HTML</span>
+                            <div class="skill-bar ">
+                                <span class="skill-per html">
+                                    <span class="tooltip">70%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">CSS</span>
+                            <div class="skill-bar">
+                                <span class="skill-per css">
+                                    <span class="tooltip">65%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">JavaScript</span>
+                            <div class="skill-bar">
+                                <span class="skill-per javascript">
+                                    <span class="tooltip">50%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">Angular</span>
+                            <div class="skill-bar">
+                                <span class="skill-per angular">
+                                    <span class="tooltip">55%</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="skill-box">
+                            <span class="title">Node Js</span>
+                            <div class="skill-bar">
+                                <span class="skill-per nodejs">
+                                    <span class="tooltip">40%</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!---Projects-->
+            <section class="section" id="project">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        <i class="fa-solid fa-certificate"></i>
+                        <h3>Professional Certification</h3>
+                        <p>I have successfully completed Angular Framework and Web Technology course in SLA institute 
+                            at Chennai.</p>
+                    </div>
+                    <div class="project-box">
+                        <i class="fa-solid fa-address-card"></i>
+                            <h3>Portfolio Website</h3>
+                        <p>A Personal Portfolio Website as responsive web design. Using to HTML, CSS , JavaScript.</p>
+                    </div>
+                    <div class="project-box">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <h3> E commerce Website </h3>
+                        <p>Add to cart and Search product by Category wise Front End Using to Angular Framework 
+                            </p>
+                    </div>
+                </div>
+            </section>
+            <!--contact box-->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Let's Work Together</h1>
+                    <span>Do you have , Contact me here</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find me <i class="fa-solid fa-magnifying-glass"></i> </h2>
+                            <p><i class="fa-solid fa-envelope"></i>Email: aravindhan.p1872000@gmail.com</p>
+                            <p><i class="fa-solid fa-phone"></i>Phone: 91+ 8220523783</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" class="input-field" placeholder="Your Name">
+                                <input type="email" class="input-field" placeholder="Your Email">
+                            </div>
+                            <div class="text-area">
+                                <input type="text" class="input-subject" placeholder="Subject">
+                                <textarea placeholder="Meessage" name="" id=""></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button class="btn">Send<i class="fa-regular fa-message"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!--Footer-->
+        <footer>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#project">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+                <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+                <div class="icon"><i class="fa-brands fa-github"></i></div>
+                <div class="icon"><i class="fa-solid fa-border-none"></i></div>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Aravindhan Pasupathi </a> - All
+                    rights reserved 2024</p>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
